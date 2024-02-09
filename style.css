@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: #232b2b;
+}
+
+.logo{
+    width: 130px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(116, 100, 100);
+}
+
+nav ul li a:hover{
+    color: lightgrey;
+}
+
+.desc-1{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.desc-1 h1{
+    font-size: 50px;
+    color: lightgrey;
+    margin-bottom: 20px;
+    font-size: 90px;
+}
+
+.desc-1 h2{
+    color: lightgrey;
+    line-height: 45px;
+    float: right;
+    margin: 80px;
+    margin-top: -189px;
+    font-size: 59px;
+    padding-inline: 99px;
+}
+
+.desc-1 p{
+    color: lightgrey;
+    line-height: 22px;
+    float: right;
+    margin: 89px;
+    margin-top: -50px;
+}
+
+.desc-1 p1{
+    color: rgb(116, 100, 100);
+    line-height: 22px;
+    float: right;
+    margin: 250px;
+    margin-top: -273px;
+    padding-inline: 99px;
+}
+.desc-1 a{
+    line-height: 88px;
+    float: right;
+    margin:-149px;
+    margin-top: -1px;
+    color: rgb(116, 100, 100);
+}
+.desc-1 a:hover{
+    color: lightgrey;
+}
+
+.myself{
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right:550px;
+}
+
+.fa-github{
+    color: lightgrey;
+    padding: 1%;
+}
+
+.fa-instagram{
+    color: lightgrey;
+    padding: 1%;
+}
+
+.fa-linkedin{
+    color: lightgrey;
+    padding:1%;
+}
+
+.second{
+    background-color: #0b1111f1;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.second p1{
+    color: rgb(116, 100, 100);
+    margin: 80px;   
+}
+
+.second h1{
+     color: lightgrey;
+     margin-left: 5%;
+     padding-top: 4%;
+     font-size: 35px;
+     line-height: 50PX;
+     margin-bottom: 3%;
+}
+
+.second h5{
+    color: lightgrey;
+    font-size: 23px;
+    padding-left: 70%;
+    padding-top: 0%;
+    
+}
+.desc-2{
+    width: 1220px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.second a1{
+    color: rgb(116, 100, 100);
+    margin-left: 154px;
+}
+
+.second a1:hover{
+    color: #3f2c32;
+}
+
+.second p2{
+    color: lightgrey;
+    line-height: 20px;
+}
+
+.second p2 a{
+    color: rgb(116, 100, 100);
+}
+
+.second p2 a:hover{
+    color: #3f2c32;
+}
+
+.desc-3{
+    background-color: #232b2b;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+}
+
+.card{
+    height: 320px;
+    width: 380px;
+    padding: 90px 35px;
+    background: #0b1111f1;
+    border-radius: 010px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.card i{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: lightgrey;
+}
+
+.card h2{
+    color: lightgrey;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.card p{
+    color: rgb(116, 100, 100);
+}
+
+.card:hover{
+    background: #3f2c32;
+    transform: translateY(-10px);
+
+}
+
+.about{
+    background-color: #0b1111f1;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.text{
+    width: 550px;
+}
+
+.text p{
+    color: lightgrey;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+span{
+    color: rgba(123, 79, 79, 0.856);
+    font-size: 18px;
+}
+
+.desc-4{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.desc-5{
+    background-color: #232b2b;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+}
+
+.card-a{
+    height: 320px;
+    width: 380px;
+    padding: 90px 35px;
+    background: #0b1111f1;
+    border-radius: 010px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.card-a i{
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: lightgrey;
+}
+
+.card-a h2{
+    color: lightgrey;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.card-a p{
+    color: rgb(116, 100, 100);
+}
+
+.card-a:hover{
+    background: #3f2c32;
+    transform: translateY(-10px);
+
+}
+
+
+
+.contact{
+    width: 100%;
+    height: 500px;
+    background: #0b1111f1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contact h3{
+    color: lightgrey;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-right: 1000px;
+    margin-left: 45px;
+    margin-top: 100px;
+}
+
+.contact p{
+    color: rgba(213, 203, 203, 0.567);
+    font-size: 15px;
+    margin-bottom: 25px;
+    margin-right: 990px;
+    margin-left: 190px;
+
+}
+
+.contact a{
+    color:  rgb(116, 100, 100);
+    font-size: 25px;
+    margin-bottom:25px;
+    margin-right: 1221px;
+    margin-left: 190px;
+}
+
+.contact a:hover{
+    color: #3f2c32;
+}
+
+.contact h2{
+    color: lightgrey;
+    margin-bottom: 25px;
+    margin-left: 789px;
+    margin-top: -150px;
+    margin-right: 0px;
+}
+
+.contact p2{
+    color: lightgrey;
+    margin-bottom: 25px;
+    margin-left: 788px;
+    margin-right: 95px;
+    font-size: 17px;
+    margin-top: 19px;
+}
+
+.h{
+   color: #0b1111f1;
+   width: 20%;
+   height: 1px;
+   margin-left: 800px;
+}
+.contact p1{
+    color: lightgrey;
+    margin-bottom: 25px;
+    margin-left: 865px;
+    margin-right: 49px;
+    font-size: 17px;
+    margin-top: 19px;
+}
+
+.fa-paperclip{
+    margin-left: 50px;
+}
+
+.fa-paperclip:hover{
+    color: darkgrey;
+}
+
+.fa-arrow-right{
+    color: rgb(116, 100, 100);
+    margin-left: 15px;
+}
+
+.fa-arrow-right:hover{
+    color: #3f2c32;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #0b1111f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo1{
+    width: 130px;
+}
+
+footer p {
+    font-size: 20px;
+    color: lightgrey;
+    margin-bottom: 20px;
+}
+
+
